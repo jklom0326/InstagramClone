@@ -27,8 +27,6 @@
         android:layout_marginTop="60dp"
         android:text="새 계정 만들기"
         android:textColor="#ffffff"
-        android:shadowColor="#ffffff"
-        app:layout_constraintCircleRadius="5dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/radius"
