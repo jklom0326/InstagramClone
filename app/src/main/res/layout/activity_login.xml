@@ -7,26 +7,25 @@
     tools:context=".LoginActivity">
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="127dp"
         android:layout_marginRight="30dp"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:ignore="hardcodedtext"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="122dp" />
+        android:hint="전화번호,이메일주소 또는 사용자 이름"
+        tools:ignore="hardcodedtext">
 
-    <com.google.android.material.textfield.TextInputEditText
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="206dp"
+        android:layout_marginRight="30dp"
         android:ems="17"
+        android:hint="비밀번호"
         android:inputType="textPassword"
         tools:ignore="hardcodedtext"
         tools:layout_editor_absoluteX="29dp"
@@ -35,15 +34,15 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="311dp"
         android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
         android:background="@drawable/radius"
         android:text="로그인"
         android:textColor="#ffffff"
-        tools:ignore="hardcodedtext"/>
+        tools:ignore="hardcodedtext" />
 
     <CheckedTextView
         android:id="@+id/checkedTextView"
