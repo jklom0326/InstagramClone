@@ -7,5 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     
-    <style name=""
+    <style name="idbackground">
+        <item name="backgroundColor">#bbbbbb</item>
+    </style>
 </resources>
